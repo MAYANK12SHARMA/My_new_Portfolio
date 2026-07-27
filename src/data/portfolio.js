@@ -3,7 +3,7 @@ export const portfolio = {
     name: "Mayank Sharma",
     role: "Backend Developer | AI Engineer | Open Source Contributor",
     location: "Mathura, Uttar Pradesh, India",
-    email: "mayank.5shar@gmail.com",
+    email: "mayank.5shar@gmail.com", 
     phone: "+91-9557560564",
 
     tagline:

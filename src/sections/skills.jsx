@@ -115,7 +115,7 @@ export const Skills = () => {
                         cursor-default
                       "
                     >
-                      {skill}
+                      {skill} 
                     </span>
 
                   ))}
