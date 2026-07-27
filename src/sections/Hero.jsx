@@ -92,14 +92,17 @@ export const Hero = () => {
                 Let's Connect
                 <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton
-                as="a"
-                href={portfolio.personal.resume}
-                download
+              <a
+                href="/resume.pdf"
+                download="Mayank_Sharma_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
+                <AnimatedBorderButton>
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}

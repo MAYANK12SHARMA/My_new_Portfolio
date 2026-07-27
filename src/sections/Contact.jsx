@@ -8,6 +8,8 @@ import {
   Send,
   Copy,
 } from "lucide-react";
+
+import { SiLeetcode } from "react-icons/si";
 import { Button } from "@/components/Button";
 import { portfolio } from "@/data/portfolio";
 
@@ -46,7 +48,7 @@ const socials = [
   {
     name: "LeetCode",
     href: portfolio.personal.socials.leetcode,
-    icon: Code2,
+    icon: SiLeetcode,
   },
 ];
 
