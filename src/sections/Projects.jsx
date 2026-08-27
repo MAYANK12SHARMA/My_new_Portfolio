@@ -2,40 +2,43 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "IntelliView – AI Interview Platform",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "E-Commerce Platform",
-    description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "A full-stack real-time coding interview and practice platform with collaborative interview rooms, coding contests, AI-powered hints and debugging, secure code execution, and real-time communication.",
     image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+    tags: ["React", "Node.js", "Express", "Clerk", "Grok API", "stram"],
+    link: "https://ai-interview-mayank.vercel.app/",
+    github: "https://github.com/MAYANK12SHARMA/AI_Interview_platform",
   },
+
   {
-    title: "AI Writing Assistant",
+    title: "Medimeet – Doctor Appointment Platform",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "Project Management Tool",
-    description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "A full-stack healthcare platform for discovering doctors, booking appointments, conducting secure video consultations, managing medical records, and handling consultation credits.",
     image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
+    tags: ["Next.js", "React", "TypeScript", "PostgreSQL", "WebRTC"],
+    link: "https://doctor-appointment-mayank.vercel.app/",
+    github: "https://github.com/MAYANK12SHARMA/Doctor-Appointment-Platform",
+  },
+
+  {
+    title: "Plot Wizard",
+    description:
+      "An interactive data visualization and machine learning platform that enables real-time data analysis, AI-generated code and insights, automated PDF reports, and an AI chatbot for ML/DL learning.",
+    image: "/projects/project3.png",
+    tags: ["Python", "Streamlit", "Pandas", "NumPy", "OpenAI", "Azure AI"],
     link: "#",
-    github: "#",
+    github: "https://github.com/MAYANK12SHARMA/NEXTGEN",
+  },
+
+  {
+    title: "GPS Toll-based System Simulation",
+    description:
+      "A Django-based GPS toll system for vehicle tracking, distance-based toll calculation, automated invoicing, and digital payment workflows, designed to reduce toll-payment delays.",
+    image: "/projects/project1.png",
+    tags: ["Python", "Django", "DRF", "SQLite", "Leaflet", "Razorpay"],
+    link: "#",
+    github: "https://github.com/MAYANK12SHARMA/GPS-Toll-Checker",
   },
 ];
 
