@@ -157,7 +157,7 @@ export const Footer = () => {
               <Heart className="w-4 h-4 text-red-500 fill-red-500" />
               using
               <Code2 className="w-4 h-4 text-primary" />
-              React + Tailwind CSS
+              Brain 💀
             </div>
 
             {/* Right */}
